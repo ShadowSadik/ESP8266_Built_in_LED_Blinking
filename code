@@ -1,0 +1,10 @@
+void setup() {
+  pinMode(D0, OUTPUT); // Set the LED pin as an output
+}
+
+void loop() {
+  digitalWrite(D0, HIGH); // Turn the LED on
+  delay(3000); // Wait for 3 second
+  digitalWrite(D0, LOW); // Turn the LED off
+  delay(3000); // Wait for 3 second
+}
